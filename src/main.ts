@@ -1,6 +1,7 @@
 import { createHead } from '@vueuse/head'
 import { createPinia } from 'pinia'
 import { createApp } from 'vue'
+// @ts-ignore
 import App from './App.vue'
 import './assets/index.postcss'
 import router from './router'

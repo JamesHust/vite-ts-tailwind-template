@@ -1,5 +1,6 @@
 import { test, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
+// @ts-ignore
 import Component from '@/components/HelloWorld.vue'
 
 test('HelloWorld', async () => {
